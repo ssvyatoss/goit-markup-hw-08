@@ -172,12 +172,12 @@ body {
 }
 
 .address a {
+  font-style: normal;
   color: #fff;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   text-decoration: none;
-  font-style: normal;
 }
 
 .transparent {
