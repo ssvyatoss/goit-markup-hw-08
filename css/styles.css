@@ -6,8 +6,7 @@ body {
 }
 
 .header a:hover {
-  text-decoration: underline #2196f3;
-  cursor: default;
+  color:  #2196f3;
 }
 
 .header li {
@@ -15,8 +14,7 @@ body {
 }
 
 .logo {
-  font-family: Releway;
-  color: #000000;
+  color: #000;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.17;
@@ -36,12 +34,8 @@ body {
   text-decoration: none;
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.14px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
-}
-
-.studio-link {
-  color: #2196f3;
 }
 
 .link {
@@ -51,16 +45,12 @@ body {
 .contacts a {
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.14px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
 }
 
-.mail {
-  color: #2196f3;
-}
-
-.tel {
+.mail, .tel {
   color: #757575;
 }
 
@@ -80,6 +70,7 @@ body {
 }
 
 .title-text {
+  color: #fff;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -98,9 +89,10 @@ body {
 }
 
 .main-button > span {
+  color: #fff;
   font-weight: 700;
   font-size: 16px;
-  line-height: 1.875px;
+  line-height: 1.87;
 }
 
 .peculiarities {
@@ -113,14 +105,14 @@ body {
 .block-title h3 {
   font-weight: 700;
   font-size: 14px;
-  line-height: 1.142857143;
+  line-height: 1.14;
   text-transform: uppercase;
 }
 
 .block-title p {
   color: #757575;
   font-size: 14px;
-  line-height: 1.71428571;
+  line-height: 1.71;
 }
 
 .employment h2 {
@@ -137,19 +129,19 @@ body {
 .team h2 {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.66666667;
+  line-height: 1.66;
 }
 
 .team h3 {
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.1875;
+  line-height: 1.18;
 }
 
 .team p {
   color: #757575;
   font-size: 16px;
-  line-height: 1.1875;
+  line-height: 1.18;
 }
 
 .footer a:hover {
@@ -179,7 +171,7 @@ body {
   color: #2196f3;
   font-weight: 700;
   font-size: 26px;
-  line-height: 1.192307692;
+  line-height: 1.19;
   letter-spacing: 0.03em;
 }
 
@@ -187,7 +179,7 @@ body {
   color: #fff;
   font-weight: 400;
   font-size: 14px;
-  line-height: 1.714285714;
+  line-height: 1.71;
   text-decoration: none;
 }
 
@@ -211,14 +203,16 @@ body {
   list-style-type: none;
 }
 .buttons-box button {
+  font-family: Raleway;
+  letter-spacing: 0.03em;
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.625;
+  line-height: 1.62;
   text-align: center;
   cursor: pointer;
 }
 
-.portfolio-button-font {
+.buttons-box button:hover {
   background-color: #2196f3;
   color: #fff;
 }
@@ -233,7 +227,7 @@ body {
 .portfolio-imagebox-txt p {
   color: #757575;
   font-size: 16px;
-  line-height: 1.875;
+  line-height: 1.87;
   letter-spacing: 0.03em;
 }
 
