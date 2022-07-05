@@ -142,8 +142,7 @@ body {
 }
 
 .footer a:hover {
-  text-decoration: underline #2196f3;
-  cursor: default;
+  color: #2196f3;
 }
 
 .footer li {
@@ -161,7 +160,7 @@ body {
 
 .footer > a {
   color: #fff;
-  font-family: Raleway;
+  font-style: normal;
 }
 
 .footer > span {
@@ -178,6 +177,7 @@ body {
   font-size: 14px;
   line-height: 1.71;
   text-decoration: none;
+  font-style: normal;
 }
 
 .transparent {
