@@ -1,0 +1,240 @@
+/* index + portfolio header + footer css start */
+
+body {
+  font-family: "Roboto", Raleway, Oleo Script;
+  color: #212121;
+}
+
+.header a:hover {
+  text-decoration: underline #2196f3;
+  cursor: default;
+}
+
+.header li {
+  list-style-type: none;
+}
+
+.logo {
+  font-family: Releway;
+  color: #000000;
+  font-weight: 700px;
+  font-size: 26px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+
+.logo > span {
+  font-family: Raleway;
+  color: #2196f3;
+  font-size: 26px;
+  line-height: 1.38;
+  letter-spacing: 0.03em;
+}
+
+.site-nav-list a {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14px;
+  letter-spacing: 0.02em;
+}
+
+.studio-link {
+  color: #2196f3;
+}
+
+.link {
+  color: #212121;
+}
+
+.contacts a {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14px;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+
+.mail {
+  color: #2196f3;
+}
+
+.tel {
+  color: #757575;
+}
+
+.main-index-content li {
+  list-style-type: none;
+}
+
+.title {
+  background-color: #2f303a;
+  width: 1600px;
+  height: 600px;
+  left: 0px;
+  top: 80px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #000000;
+}
+
+.title-text {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-transform: uppercase;
+}
+
+.main-button {
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  width: 200px;
+  height: 50px;
+  left: 700px;
+  top: 430px;
+  cursor: pointer;
+}
+
+.main-button > span {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.875px;
+}
+
+.peculiarities {
+  letter-spacing: 0.03em;
+}
+.peculiarities-title {
+  color: #fff;
+}
+
+.block-title h3 {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.142857143;
+  text-transform: uppercase;
+}
+
+.block-title p {
+  color: #757575;
+  font-size: 14px;
+  line-height: 1.71428571;
+}
+
+.employment h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.166666667;
+  letter-spacing: 0.03em;
+}
+
+.team {
+  letter-spacing: 0.03em;
+}
+
+.team h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.66666667;
+}
+
+.team h3 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.1875;
+}
+
+.team p {
+  color: #757575;
+  font-size: 16px;
+  line-height: 1.1875;
+}
+
+.footer a:hover {
+  text-decoration: underline #2196f3;
+  cursor: default;
+}
+
+.footer li {
+  list-style-type: none;
+}
+
+.footer {
+  letter-spacing: 0.03em;
+  background-color: #2f303a;
+  width: 1600px;
+  height: 252px;
+  left: 0px;
+  top: 2097px;
+}
+
+.footer > a {
+  color: #fff;
+  font-family: Raleway;
+}
+
+.footer > span {
+  color: #2196f3;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.192307692;
+  letter-spacing: 0.03em;
+}
+
+.address a {
+  color: #fff;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.714285714;
+  text-decoration: none;
+}
+
+.transparent {
+  opacity: 0.6;
+}
+
+/* index css + portfolio header + footer start finish */
+/* portfolio css start */
+
+.main-portfolio-content li {
+  list-style-type: none;
+}
+
+.portfolio-title {
+  color: #fff;
+}
+
+.buttons-box {
+  text-align: center;
+  list-style-type: none;
+}
+.buttons-box button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.625;
+  text-align: center;
+  cursor: pointer;
+}
+
+.portfolio-button-font {
+  background-color: #2196f3;
+  color: #fff;
+}
+
+.portfolio-imagebox-txt h2 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.portfolio-imagebox-txt p {
+  color: #757575;
+  font-size: 16px;
+  line-height: 1.875;
+  letter-spacing: 0.03em;
+}
+
+
