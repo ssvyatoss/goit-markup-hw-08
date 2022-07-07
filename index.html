@@ -5,169 +5,185 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" /> 
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
 
   <body>
-    <header class="header">
-      <nav>
-        <a href="./index.html" class="logo"><span>Web</span>Studio</a>
+    <header>
+      <div class="container header-container">
+        <nav class="nav">
+          <a href="./index.html" class="logo"><span>Web</span>Studio</a>
 
-        <ul class="site-nav-list">
-          <li><a href="./index.html" class="link">Студія</a></li>
-          <li><a href="./portfolio.html" class="link">Портфоліо</a></li>
-          <li><a href="" class="link">Контакти</a></li>
+          <ul class="site-nav-list">
+            <li><a href="./index.html" class="link">Студія</a></li>
+            <li><a href="./portfolio.html" class="link">Портфоліо</a></li>
+            <li><a href="" class="link">Контакти</a></li>
+          </ul>
+        </nav>
+
+        <ul class="contacts">
+          <li>
+            <a href="mailto:info@devstudio.com" class="mail"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li>
+            <a href="tel:+380961111111" class="tel">+38 096 111 11 11</a>
+          </li>
         </ul>
-      </nav>
-
-      <ul class="contacts">
-        <li>
-          <a href="mailto:info@devstudio.com" class="mail"
-            >info@devstudio.com</a
-          >
-        </li>
-        <li>
-          <a href="tel:+380961111111" class="tel">+38 096 111 11 11</a>
-        </li>
-      </ul>
+      </div>
     </header>
 
     <main class="main-index-content">
-      <section class="title">
-        <h1 class="title-text">
-          Ефективні рішення <br />
-          для вашого бізнесу
-        </h1>
+          <section class="title section">
+            <div class="hat-display-container"></div>
+            <h1 class="title-text">
+              Ефективні рішення <br />
+              для вашого бізнесу
+            </h1>
 
-        <button type="button" class="main-button"><span>Замовити послугу</span></button>
-      </section>
+            <button type="button" class="main-button">
+              <span>Замовити послугу</span>
+            </button>
+          </div>
+          </section>
 
-      <section class="peculiarities">
-        <h2 class="peculiarities-title">Особливості</h2>
+          <section class="peculiarities section">
+            <div class="peculiarities-container container">
+            <h2 class="peculiarities-title">Особливості</h2>
 
-        <ul class="block-title">
-          <li>
-            <h3>Увага до деталей</h3>
-            <p>
-              Ідейні обмірковування та <br />
-              початок повсякденної роботи по <br />
-              формуванню позиції.
-            </p>
-          </li>
-          <li>
-            <h3>Пунктуальність</h3>
-            <p>
-              Задача організації, особливо <br />
-              ж рамки та місце навчання кадрів <br />
-              манить за собою.
-            </p>
-          </li>
-          <li>
-            <h3>Планування</h3>
-            <p>
-              Рівним чином консультація з <br />
-              широким активом в значній <br />
-              степені обумовлює.
-            </p>
-          </li>
-          <li>
-            <h3>Сучасні технології</h3>
-            <p>
-              Значність цих проблем настільки <br />
-              очевидна, що реалізація планових <br />
-              задач.
-            </p>
-          </li>
-        </ul>
-      </section>
+            <ul class="block-title">
+              <li>
+                <h3>Увага до деталей</h3>
+                <p>
+                  Ідейні обмірковування та <br />
+                  початок повсякденної роботи по <br />
+                  формуванню позиції.
+                </p>
+              </li>
+              <li>
+                <h3>Пунктуальність</h3>
+                <p>
+                  Задача організації, особливо <br />
+                  ж рамки та місце навчання кадрів <br />
+                  манить за собою.
+                </p>
+              </li>
+              <li>
+                <h3>Планування</h3>
+                <p>
+                  Рівним чином консультація з <br />
+                  широким активом в значній <br />
+                  степені обумовлює.
+                </p>
+              </li>
+              <li>
+                <h3>Сучасні технології</h3>
+                <p>
+                  Значність цих проблем настільки <br />
+                  очевидна, що реалізація планових <br />
+                  задач.
+                </p>
+              </li>
+            </ul>
+          </div>
+          </section>
 
-      <section class="employment">
-        <h2>Чим ми займаємося</h2>
-        <ul>
-          <li>
-            <img
-              src="images/activity/p1.jpg"
-              alt="Keyboard and block diagram"
-              width="370"
-              height="294"
-            />
-          </li>
-          <li>
-            <img
-              src="images/activity/p2.jpg"
-              alt="Netbook with 3 smartphone 
+        <section class="employment section">
+          <div class="container employment-container">
+          <h2>Чим ми займаємося</h2>
+          <ul class="img-employment-container">
+            <li>
+              <img
+                src="images/activity/p1.jpg"
+                alt="Keyboard and block diagram"
+                width="370"
+                height="294"
+              />
+            </li>
+            <li>
+              <img
+                src="images/activity/p2.jpg"
+                alt="Netbook with 3 smartphone 
                     template and woman with smartphone"
-              width="370"
-              height="294"
-            />
-          </li>
-          <li>
-            <img
-              src="images/activity/p3.jpg"
-              alt="hands above desktop with color palette on tablet screen"
-              width="370"
-              height="294"
-            />
-          </li>
-        </ul>
-      </section>
+                width="370"
+                height="294"
+              />
+            </li>
+            <li>
+              <img
+                src="images/activity/p3.jpg"
+                alt="hands above desktop with color palette on tablet screen"
+                width="370"
+                height="294"
+              />
+            </li>
+          </ul>
+        </div>
+        </section>
 
-      <section class="team">
-        <h2>Наша команда</h2>
+        <section class="team section">
+          <div class="container">
+          <h2>Наша команда</h2>
 
-        <ul>
-          <li>
-            <img
-              src="images/team/p1IgorDemyanenko.jpg"
-              alt="Ігор Дем'яненко"
-              width="270"
-              height="260"
-            />
-            <h3>Ігор Дем'яненко</h3>
-            <p>Product Designer</p>
-          </li>
+          <ul class="img-team-container">
+            <li class="team-img">
+              <img
+                src="images/team/p1IgorDemyanenko.jpg"
+                alt="Ігор Дем'яненко"
+                width="270"
+                height="260"
+              />
+              <h3>Ігор Дем'яненко</h3>
+              <p>Product Designer</p>
+            </li>
 
-          <li>
-            <img
-              src="images/team/p2OlgaRepina.jpg"
-              alt="Ольга Рєпіна"
-              width="270"
-              height="260"
-            />
-            <h3>Ольга Рєпіна</h3>
-            <p>Frontend Developer</p>
-          </li>
+            <li class="team-img">
+              <img
+                src="images/team/p2OlgaRepina.jpg"
+                alt="Ольга Рєпіна"
+                width="270"
+                height="260"
+              />
+              <h3>Ольга Рєпіна</h3>
+              <p>Frontend Developer</p>
+            </li>
 
-          <li>
-            <img
-              src="images/team/p3NicolayTarasov.jpg"
-              alt="Миколай Тарасов"
-              width="270"
-              height="260"
-            />
-            <h3>Миколай Тарасов</h3>
-            <p>Marketing</p>
-          </li>
+            <li class="team-img">
+              <img
+                src="images/team/p3NicolayTarasov.jpg"
+                alt="Миколай Тарасов"
+                width="270"
+                height="260"
+              />
+              <h3>Миколай Тарасов</h3>
+              <p>Marketing</p>
+            </li>
 
-          <li>
-            <img
-              src="images/team/p4MickailErmakov.jpg"
-              alt="Михаїл Єрмаков"
-              width="270"
-              height="260"
-            />
-            <h3>Михаїл Єрмаков</h3>
-            <p>UI Designer</p>
-          </li>
-        </ul>
-      </section>
+            <li class="team-img">
+              <img
+                src="images/team/p4MickailErmakov.jpg"
+                alt="Михаїл Єрмаков"
+                width="270"
+                height="260"
+              />
+              <h3>Михаїл Єрмаков</h3>
+              <p>UI Designer</p>
+            </li>
+          </ul>
+        </div>
+        </section>
     </main>
 
     <footer class="footer">
+      <div class="container">
       <a href="./index.html" class="logo"><span>Web</span>Studio</a>
       <address class="address">
         <ul>
@@ -188,6 +204,7 @@
           </li>
         </ul>
       </address>
+    </div>
     </footer>
   </body>
 </html>
