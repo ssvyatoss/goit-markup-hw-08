@@ -47,6 +47,7 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  margin: 0;
 }
 
 .link {
@@ -135,7 +136,7 @@ body {
 .team h2 {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.66;
+  line-height: 1.17;
 }
 
 .team h3 {
@@ -162,11 +163,6 @@ body {
   letter-spacing: 0.03em;
   background-color: #2f303a;
   padding: 60px 0;
-}
-
-.footer > a {
-  color: #fff;
-  font-style: normal;
 }
 
 .footer > span {
@@ -262,11 +258,11 @@ body {
   display: flex;
   list-style: none;
   margin-left: 93px;
-  flex-wrap: wrap;
+  padding: 32px 32px;
 }
 
 .site-nav-list li:not(:last-child) {
-  margin-right: 50px;
+  padding-right: 50px;
 }
 
 .contacts {
@@ -275,7 +271,7 @@ body {
 }
 
 .contacts li:not(:last-child) {
-  margin-right: 50px;
+  padding-right: 50px;
 }
 
 .section {
@@ -287,16 +283,25 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 200px 0;
 }
 
-.peculiarities-container li:not(:last-child) {
-  margin-right: 50px;
+.title-text {
+  padding-bottom: 40px;
+}
+
+.block-title h3 {
+  padding-bottom: 10px;
 }
 
 .employment-container {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.employment-container h2 {
+  padding-bottom: 50px;
 }
 
 .img-employment-container {
@@ -316,6 +321,7 @@ body {
 
 .team h2 {
   text-align: center;
+  padding-bottom: 50px;
 }
 
 .img-team-container {
@@ -323,10 +329,18 @@ body {
   justify-content: space-between;
 }
 
+.img-txt-container {
+  padding: 30px 0;
+}
+
 .team-img {
   background-color: #fff;
   width: calc((100% - 3 * 30px) / 4);
   text-align: center;
+}
+
+.footer-container > a {
+  color: #fff;
 }
 
 /*block model part index finish*/
@@ -338,8 +352,18 @@ body {
   justify-content: center;
 }
 
+.buttons-portfolio-container button {
+  padding: 6px 22px;
+  background-color: #F5F4FA;
+  border-radius: 4px;
+}
+
 .buttons-portfolio-container li:not(:last-child) {
-  margin-right: 30px;
+  margin-right: 8px;
+}
+
+.portfolio-img img {
+  display: block;
 }
 
 .img-portfolio-container {
@@ -351,4 +375,6 @@ body {
 
 .underline-container {
   border: 1px solid #eee;
+  padding: 20px 24px;
 }
+

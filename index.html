@@ -11,7 +11,13 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" /> 
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"
+      integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
 
@@ -42,62 +48,62 @@
     </header>
 
     <main class="main-index-content">
-          <section class="title section">
-            <div class="hat-display-container">
-            <h1 class="title-text">
-              Ефективні рішення <br />
-              для вашого бізнесу
-            </h1>
+      <section class="title section">
+        <div class="hat-display-container">
+          <h1 class="title-text">
+            Ефективні рішення <br />
+            для вашого бізнесу
+          </h1>
 
-            <button type="button" class="main-button">
-              <span>Замовити послугу</span>
-            </button>
-          </div>
-          </section>
+          <button type="button" class="main-button">
+            <span>Замовити послугу</span>
+          </button>
+        </div>
+      </section>
 
-          <section class="peculiarities section">
-            <div class="peculiarities-container container">
-            <h2 class="peculiarities-title">Особливості</h2>
+      <section class="peculiarities section">
+        <div class="peculiarities-container container">
+          <h2 class="peculiarities-title">Особливості</h2>
 
-            <ul class="block-title">
-              <li>
-                <h3>Увага до деталей</h3>
-                <p>
-                  Ідейні обмірковування та <br />
-                  початок повсякденної роботи по <br />
-                  формуванню позиції.
-                </p>
-              </li>
-              <li>
-                <h3>Пунктуальність</h3>
-                <p>
-                  Задача організації, особливо <br />
-                  ж рамки та місце навчання кадрів <br />
-                  манить за собою.
-                </p>
-              </li>
-              <li>
-                <h3>Планування</h3>
-                <p>
-                  Рівним чином консультація з <br />
-                  широким активом в значній <br />
-                  степені обумовлює.
-                </p>
-              </li>
-              <li>
-                <h3>Сучасні технології</h3>
-                <p>
-                  Значність цих проблем настільки <br />
-                  очевидна, що реалізація планових <br />
-                  задач.
-                </p>
-              </li>
-            </ul>
-          </div>
-          </section>
+          <ul class="block-title">
+            <li>
+              <h3>Увага до деталей</h3>
+              <p>
+                Ідейні обмірковування та <br />
+                початок повсякденної роботи по <br />
+                формуванню позиції.
+              </p>
+            </li>
+            <li>
+              <h3>Пунктуальність</h3>
+              <p>
+                Задача організації, особливо <br />
+                ж рамки та місце навчання кадрів <br />
+                манить за собою.
+              </p>
+            </li>
+            <li>
+              <h3>Планування</h3>
+              <p>
+                Рівним чином консультація з <br />
+                широким активом в значній <br />
+                степені обумовлює.
+              </p>
+            </li>
+            <li>
+              <h3>Сучасні технології</h3>
+              <p>
+                Значність цих проблем настільки <br />
+                очевидна, що реалізація планових <br />
+                задач.
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
 
-        <section class="employment section">
-          <div class="container employment-container">
+      <section class="employment section">
+        <div class="container employment-container">
           <h2>Чим ми займаємося</h2>
           <ul class="img-employment-container">
             <li>
@@ -127,10 +133,10 @@
             </li>
           </ul>
         </div>
-        </section>
+      </section>
 
-        <section class="team section">
-          <div class="container">
+      <section class="team section">
+        <div class="container">
           <h2>Наша команда</h2>
 
           <ul class="img-team-container">
@@ -141,8 +147,10 @@
                 width="270"
                 height="260"
               />
-              <h3>Ігор Дем'яненко</h3>
-              <p>Product Designer</p>
+              <div class="img-txt-container">
+                <h3>Ігор Дем'яненко</h3>
+                <p>Product Designer</p>
+              </div>
             </li>
 
             <li class="team-img">
@@ -152,8 +160,10 @@
                 width="270"
                 height="260"
               />
-              <h3>Ольга Рєпіна</h3>
-              <p>Frontend Developer</p>
+              <div class="img-txt-container">
+                <h3>Ольга Рєпіна</h3>
+                <p>Frontend Developer</p>
+              </div>
             </li>
 
             <li class="team-img">
@@ -163,8 +173,10 @@
                 width="270"
                 height="260"
               />
-              <h3>Миколай Тарасов</h3>
-              <p>Marketing</p>
+              <div class="img-txt-container">
+                <h3>Миколай Тарасов</h3>
+                <p>Marketing</p>
+              </div>
             </li>
 
             <li class="team-img">
@@ -174,37 +186,39 @@
                 width="270"
                 height="260"
               />
-              <h3>Михаїл Єрмаков</h3>
-              <p>UI Designer</p>
+              <div class="img-txt-container">
+                <h3>Михаїл Єрмаков</h3>
+                <p>UI Designer</p>
+              </div>
             </li>
           </ul>
         </div>
-        </section>
+      </section>
     </main>
 
     <footer class="footer">
-      <div class="container">
-      <a href="./index.html" class="logo"><span>Web</span>Studio</a>
-      <address class="address">
-        <ul>
-          <li>
-            <a
-              href="https://goo.gl/maps/kbx48z9vo7qgfnr78"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              м. Київ, пр-т Лесі Українки, 26
-            </a>
-          </li>
-          <li class="transparent">
-            <a href="mailto:info@example.com"> info@example.com</a>
-          </li>
-          <li class="transparent">
-            <a href="tel:+380991111111"> +38 099 111 11 11</a>
-          </li>
-        </ul>
-      </address>
-    </div>
+      <div class="container footer-container">
+        <a href="./index.html" class="logo"><span>Web</span>Studio</a>
+        <address class="address">
+          <ul>
+            <li>
+              <a
+                href="https://goo.gl/maps/kbx48z9vo7qgfnr78"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                м. Київ, пр-т Лесі Українки, 26
+              </a>
+            </li>
+            <li class="transparent">
+              <a href="mailto:info@example.com"> info@example.com</a>
+            </li>
+            <li class="transparent">
+              <a href="tel:+380991111111"> +38 099 111 11 11</a>
+            </li>
+          </ul>
+        </address>
+      </div>
     </footer>
   </body>
 </html>
