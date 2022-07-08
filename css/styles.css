@@ -99,20 +99,21 @@ body {
 .peculiarities {
   letter-spacing: 0.03em;
 }
-
 .peculiarities-title {
   display: none;
-}
-
-.txt-part {
-  display: flex;
-  flex-direction: column;
-  width: 270px;
 }
 
 .block-title {
   display: flex;
   justify-content: space-between;
+}
+
+.block-title li {
+  width: 270px;
+}
+
+.block-title li:not(:last-child) {
+  padding-right: 30px;
 }
 
 .block-title h3 {
@@ -296,6 +297,10 @@ body {
   padding-bottom: 40px;
 }
 
+.peculiarities-title li {
+  width: 270px;
+}
+
 .peculiarities {
   padding-bottom: 0;
 }
@@ -351,6 +356,7 @@ body {
 
 .team-img h3 {
   margin-bottom: 10px;
+
 }
 .footer-container :first-child {
   margin-top: 20px;
@@ -369,7 +375,7 @@ body {
 /*block model part portfolio*/
 
 .header-line {
-  border-bottom: 1px solid #ececec;
+  border-bottom: 1px solid #ECECEC;
 }
 
 .buttons-portfolio-container {
@@ -379,7 +385,7 @@ body {
 
 .buttons-portfolio-container button {
   padding: 6px 22px;
-  background-color: #f5f4fa;
+  background-color: #F5F4FA;
   border-radius: 4px;
 }
 
@@ -392,7 +398,7 @@ body {
 }
 
 .portfolio-img h2 {
-  margin-bottom: 4px;
+ margin-bottom: 4px;
 }
 
 .img-portfolio-container {
