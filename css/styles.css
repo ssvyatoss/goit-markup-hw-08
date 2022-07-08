@@ -99,12 +99,18 @@ body {
 .peculiarities {
   letter-spacing: 0.03em;
 }
+
 .peculiarities-title {
   display: none;
 }
 
+.txt-part {
+  display: flex;
+  flex-direction: column;
+  width: 270px;
+}
+
 .block-title {
-  padding: 0;
   display: flex;
   justify-content: space-between;
 }
@@ -259,7 +265,6 @@ body {
   display: flex;
   list-style: none;
   margin-left: 93px;
-  padding: 32px 32px;
 }
 
 .site-nav-list li:not(:last-child) {
@@ -289,10 +294,6 @@ body {
 
 .title-text {
   padding-bottom: 40px;
-}
-
-.peculiarities-title li {
-  width: 270px;
 }
 
 .peculiarities {
