@@ -357,6 +357,9 @@ body {
 /*block model part index finish*/
 
 /*block model part portfolio*/
+.header-line {
+  border-bottom: 1px solid #ECECEC;
+}
 
 .header-line {
   border-bottom: 1px solid #ececec;
