@@ -16,6 +16,10 @@ body {
   margin: 0;
 }
 
+.header-line {
+  border-bottom: 1px solid #ececec;
+}
+
 .header li {
   list-style-type: none;
 }
@@ -48,6 +52,11 @@ body {
 
 .link {
   color: #212121;
+}
+
+.link:hover,
+.link:focus {
+  color: #2196f3;
 }
 
 .contacts a {
@@ -173,6 +182,11 @@ body {
   letter-spacing: 0.03em;
 }
 
+.address a:hover,
+.address a:focus {
+  color: #2196f3;
+}
+
 .address a {
   font-style: normal;
   color: #fff;
@@ -180,10 +194,6 @@ body {
   font-size: 14px;
   line-height: 1.71;
   text-decoration: none;
-}
-
-.address a:hover {
-  color: #2196f3;
 }
 
 .transparent {
@@ -357,9 +367,6 @@ body {
 /*block model part index finish*/
 
 /*block model part portfolio*/
-.header-line {
-  border-bottom: 1px solid #ECECEC;
-}
 
 .buttons-portfolio-container {
   display: flex;
@@ -429,7 +436,8 @@ body {
   flex-direction: row-reverse;
 }
 
-.link-properties:hover {
+.link-properties:hover,
+.link-properties:focus {
   color: #2196f3;
 }
 
@@ -505,7 +513,7 @@ body {
   display: flex;
 }
 
-.customers-logos {
+.customers-logos a {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -531,13 +539,14 @@ body {
   margin-right: 30px;
 }
 
-.customers-logos:hover,
-.customers-logos:focus {
+
+.regular-customers-link:hover,
+.regular-customers-link:focus {
   border-color: #2196f3;
 }
 
-.customers-logos:hover .regular-customers-svg,
-.customers-logos:focus .regular-customers-svg {
+.regular-customers-link:hover .regular-customers-svg,
+.regular-customers-link:focus .regular-customers-svg {
   fill: #2196f3;
 }
 
