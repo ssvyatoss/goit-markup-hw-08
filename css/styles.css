@@ -228,7 +228,8 @@ body {
   cursor: pointer;
 }
 
-.buttons-box button:hover {
+.buttons-box button:hover,
+.buttons-box button:focus {
   background-color: #2196f3;
   color: #fff;
 }
