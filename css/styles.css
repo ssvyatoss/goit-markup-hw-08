@@ -361,10 +361,6 @@ body {
   border-bottom: 1px solid #ECECEC;
 }
 
-.header-line {
-  border-bottom: 1px solid #ececec;
-}
-
 .buttons-portfolio-container {
   display: flex;
   justify-content: center;
@@ -453,6 +449,7 @@ body {
   height: 120px;
   background-color: #f5f4fa;
   margin-bottom: 30px;
+  border-radius: 4px;
 }
 
 .social-links {
@@ -461,12 +458,13 @@ body {
   margin-bottom: 30px;
 }
 
-.social-links li {
+.social-links .links-icon {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 44px;
   height: 44px;
+  border-radius: 50%;
 }
 
 .social-links li:not(:last-child) {
@@ -477,14 +475,13 @@ body {
   fill: #afb1b8;
 }
 
-.social-links li:hover,
-.social-links li:focus {
+.links-icon:hover,
+.links-icon:focus {
   background-color: rgba(33, 150, 243, 1);
-  border-radius: 50%;
 }
 
-.links-icon:hover .team-svg:hover,
-.links-icon:focus .team-svg:focus {
+.links-icon:hover .team-svg,
+.links-icon:focus .team-svg {
   fill: #fff;
 }
 
@@ -539,8 +536,8 @@ body {
   border-color: #2196f3;
 }
 
-.customers-logos:hover .regular-customers-svg:hover,
-.customers-logos:focus .regular-customers-svg:focus {
+.customers-logos:hover .regular-customers-svg,
+.customers-logos:focus .regular-customers-svg {
   fill: #2196f3;
 }
 
