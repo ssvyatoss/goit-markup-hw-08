@@ -47,13 +47,44 @@ body {
   margin: 0;
 }
 
-.link {
-  color: #212121;
+.site-nav-list {
+  display: flex;
+  list-style: none;
+  margin-left: 93px;
+}
+
+.site-nav-list li:not(:last-child) {
+  padding-right: 50px;
+}
+
+.site-nav-list a {
+  position: relative;
+}
+
+.link-underline::before {
+  color: #2196f3;
+  content: "";
+  display: block;
+  width: 100%;
+  height: 4px;
+  background-color: rgba(33, 150, 243, 1);
+  border-radius: 2px;
+  position: absolute;
+  top: 44px;
 }
 
 .link:hover,
 .link:focus {
   color: #2196f3;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+}
+
+.link {
+  color: #212121;
 }
 
 .contacts a {
@@ -98,6 +129,51 @@ body {
   cursor: pointer;
 }
 
+body {
+  position: relative;
+}
+
+.background {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  left: 0;
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.modal {
+  position: absolute;
+  width: 528px;
+  height: 581px;
+  background-color: #fff;
+}
+
+.modals-button {
+  background: none;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border-color: rgba(0, 0, 0, 0.1);
+  margin-left: 90%;
+  margin-top: 8px;
+}
+
+.close-button {
+  margin: 2px;
+  margin-top: 3px;
+}
+
+.is-hidden {
+  visibility: hidden;
+  opacity: 0;
+  pointer-events: none;
+}
+
 .peculiarities {
   letter-spacing: 0.03em;
 }
@@ -134,7 +210,14 @@ body {
 .employment h2 {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.166666667;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+}
+
+.employment h3 {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.17;
   letter-spacing: 0.03em;
 }
 
@@ -231,20 +314,6 @@ body {
   color: #fff;
 }
 
-.portfolio-imagebox-txt h2 {
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 2;
-  letter-spacing: 0.06em;
-}
-
-.portfolio-imagebox-txt p {
-  color: #757575;
-  font-size: 16px;
-  line-height: 1.87;
-  letter-spacing: 0.03em;
-}
-
 /* block model part index */
 
 .container {
@@ -259,25 +328,6 @@ body {
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
-}
-
-.site-nav-list a:hover {
-  color: #2196f3;
-}
-
-.nav {
-  display: flex;
-  align-items: center;
-}
-
-.site-nav-list {
-  display: flex;
-  list-style: none;
-  margin-left: 93px;
-}
-
-.site-nav-list li:not(:last-child) {
-  padding-right: 50px;
 }
 
 .section {
@@ -325,7 +375,23 @@ body {
   padding: 0;
 }
 
-.img-employment-container :not(:last-child) {
+.img-employment-container li {
+  position: relative;
+}
+
+.bottom-txt {
+  display: flex;
+  width: 100%;
+  height: 70px;
+  background-color: rgba(0, 38, 29, 0.3);
+  color: #fff;
+  position: absolute;
+  bottom: 3px;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-employment-container li:not(:last-child) {
   margin-right: 30px;
 }
 
@@ -343,7 +409,7 @@ body {
   justify-content: space-between;
 }
 
-.img-team-container li {
+.team-img {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
@@ -411,6 +477,21 @@ body {
 .underline-container {
   border: 1px solid #eee;
   padding: 20px 24px;
+  color: #212121;
+}
+
+.underline-container p {
+  color: #757575;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+}
+
+.underline-container h2 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
 }
 
 /*block model part portfolio finish*/
@@ -597,4 +678,35 @@ body {
 
 .footer-team-svg {
   fill: #fff;
+}
+
+.fallout-container {
+  position: relative;
+  overflow: hidden;
+}
+
+.fallout-txt {
+  color: #fff;
+  padding: 63px 24px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.55;
+  letter-spacing: 0.03em;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translateY(100%);
+  background-color: rgba(33, 150, 243, 0.9);
+  transition-duration: 250ms;
+  transition-timing-function: linear;
+  transition-property: transform;
+}
+
+.hover-fallout {
+  text-decoration: none;
+}
+
+.hover-fallout:hover .fallout-txt {
+  transform: translateY(0%);
 }
