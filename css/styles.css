@@ -74,8 +74,11 @@ body {
 }
 
 .link:hover,
-.link:focus {
+.link:focus,
+.link-properties:hover,
+.link-properties:focus {
   color: #2196f3;
+  transition-duration: 250ms;
 }
 
 .nav {
@@ -265,6 +268,7 @@ body {
 .address a:hover,
 .address a:focus {
   color: #2196f3;
+  transition-duration: 250ms;
 }
 
 .address a {
@@ -312,6 +316,7 @@ body {
 .buttons-box button:focus {
   background-color: #2196f3;
   color: #fff;
+  transition-duration: 250ms;
 }
 
 /* block model part index */
@@ -465,6 +470,7 @@ body {
 .portfolio-img:hover {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
+    transition-duration: 250ms;
 }
 
 .img-portfolio-container {
@@ -527,13 +533,9 @@ body {
   flex-direction: row-reverse;
 }
 
-.link-properties:hover,
-.link-properties:focus {
-  color: #2196f3;
-}
-
 .title {
   background-image: url(../images/hero-imag/img.jpg);
+  background-image: linear-gradient (to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4));
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 50%;
@@ -577,11 +579,13 @@ body {
 .links-icon:hover,
 .links-icon:focus {
   background-color: rgba(33, 150, 243, 1);
+  transition-duration: 250ms;
 }
 
 .links-icon:hover .team-svg,
 .links-icon:focus .team-svg {
   fill: #fff;
+  transition-duration: 250ms;
 }
 
 .regular-customers-container {
@@ -633,11 +637,13 @@ body {
 .regular-customers-link:hover,
 .regular-customers-link:focus {
   border-color: #2196f3;
+  transition-duration: 250ms;
 }
 
 .regular-customers-link:hover .regular-customers-svg,
 .regular-customers-link:focus .regular-customers-svg {
   fill: #2196f3;
+  transition-duration: 250ms;
 }
 
 .footer-container {
@@ -687,7 +693,7 @@ body {
 
 .fallout-txt {
   color: #fff;
-  padding: 63px 24px;
+  padding: 64px 24px;
   font-weight: 400;
   font-size: 18px;
   line-height: 1.55;
@@ -709,4 +715,5 @@ body {
 
 .hover-fallout:hover .fallout-txt {
   transform: translateY(0%);
+  transition-duration: 250ms;
 }
