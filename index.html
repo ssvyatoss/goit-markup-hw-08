@@ -82,6 +82,67 @@
                   />
                 </svg>
               </button>
+              <form name="form-in-modal" class="modals-form">
+                <label> Leave your details, we will call you back </label>
+                <label>
+                  <span class="input-tag">Name</span>
+                  <span class="input-wrapper">
+                    <input class="input-field" type="text" name="username" />
+                    <svg class="input-icon" width="13" height="13">
+                      <use
+                        href="./images/sprite-svg/symbol-defs.svg#icon-user"
+                      />
+                    </svg>
+                  </span>
+                </label>
+                <label>
+                  <span class="input-tag">Number</span>
+                  <span class="input-wrapper">
+                    <input class="input-field" type="tel" name="phone-number" />
+                    <svg class="input-icon" width="13" height="13">
+                      <use
+                        href="./images/sprite-svg/symbol-defs.svg#icon-phone"
+                      />
+                    </svg>
+                  </span>
+                </label>
+                <label>
+                  <span class="input-tag">Mail</span>
+                  <span class="input-wrapper">
+                    <input class="input-field" type="email" name="mail" />
+                    <svg class="input-icon" width="13" height="13">
+                      <use
+                        href="./images/sprite-svg/symbol-defs.svg#icon-letter"
+                      />
+                    </svg>
+                  </span>
+                </label>
+                <label>
+                  <span class="input-tag">Comment</span>
+                  <div class="text-area-borders">
+                    <textarea class="input-area" name="comment"></textarea>
+                  </div>
+                </label>
+                <label class="modals-checkbox">
+                  <input
+                    class="checkbox-hide visually-hidden"
+                    type="checkbox"
+                    name="agreement"
+                  />
+                  <span class="checkbox-display">
+                    <svg class="check-mark" width="11" height="8">
+                      <use
+                        href="./images/sprite-svg/symbol-defs.svg#icon-check-mark"
+                      />
+                    </svg>
+                  </span>
+                  <span class="txt-agreement">
+                    I agree to the newsletter and accept the
+                    <a href="#"> Terms of the contract </a>
+                  </span>
+                </label>
+                <button type="submit" class="modals-submit-button">Send</button>
+              </form>
             </div>
           </div>
         </div>
@@ -533,6 +594,24 @@
             </li>
           </ul>
         </div>
+        <form name="e-mail-input" autocomplete="on" class="footer-form">
+          <label for="user_email" class="subscribe"
+            >Subscribe to the newsletter</label
+          >
+          <input
+            class="footer-input"
+            type="email"
+            name="email"
+            id="user_email"
+            placeholder="E-mail"
+          />
+          <button type="submit" class="footer-submit-button">
+            Subscribe
+            <svg class="footer-submit-button-svg" width="24" height="24">
+              <use href="./images/sprite-svg/symbol-defs.svg#icon-send" />
+            </svg>
+          </button>
+        </form>
       </div>
     </footer>
     <script src="./js/modal.js"></script>

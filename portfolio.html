@@ -266,27 +266,92 @@
     </main>
 
     <footer class="footer">
-      <div class="container">
-        <a href="./index.html" class="logo"><span>Web</span>Studio</a>
-        <address class="address">
-          <ul>
-            <li>
-              <a
-                href="https://goo.gl/maps/kbx48z9vo7qgfnr78"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                м. Київ, пр-т Лесі Українки, 26
+      <div class="footer-container container">
+        <div class="address-container">
+          <a href="./index.html" class="logo footer-logo"
+            ><span>Web</span>Studio</a
+          >
+          <address class="address">
+            <ul>
+              <li>
+                <a
+                  href="https://goo.gl/maps/kbx48z9vo7qgfnr78"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  м. Київ, пр-т Лесі Українки, 26
+                </a>
+              </li>
+              <li class="transparent">
+                <a href="mailto:info@example.com"> info@example.com</a>
+              </li>
+              <li class="transparent">
+                <a href="tel:+380991111111"> +38 099 111 11 11</a>
+              </li>
+            </ul>
+          </address>
+        </div>
+        <div class="footer-social-container">
+          <h3>Доєднуйтесь</h3>
+          <ul class="social-links footer-social-links">
+            <li class="">
+              <a class="links-icon" href="#">
+                <svg class="team-svg footer-team-svg" width="20" height="20">
+                  <use
+                    href="./images/team-icons/symbol-defs.svg#icon-instagram"
+                  />
+                </svg>
               </a>
             </li>
-            <li class="transparent">
-              <a href="mailto:info@example.com"> info@example.com</a>
+            <li>
+              <a class="links-icon" href="#">
+                <svg class="team-svg footer-team-svg" width="20" height="20">
+                  <use
+                    href="./images/team-icons/symbol-defs.svg#icon-twitter"
+                  />
+                </svg>
+              </a>
             </li>
-            <li class="transparent">
-              <a href="tel:+380991111111"> +38 099 111 11 11</a>
+            <li>
+              <a class="links-icon" href="#">
+                <svg class="team-svg footer-team-svg" width="20" height="20">
+                  <use
+                    href="./images/team-icons/symbol-defs.svg#icon-facebook"
+                  />
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a class="links-icon" href="#">
+                <svg class="team-svg footer-team-svg" width="20" height="20">
+                  <use
+                    href="./images/team-icons/symbol-defs.svg#icon-linkedin"
+                  />
+                </svg>
+              </a>
             </li>
           </ul>
-        </address>
+        </div>
+        <form name="e-mail-input" autocomplete="on" class="footer-form">
+          <label for="user_email" class="subscribe"
+            >Subscribe to the newsletter</label
+          >
+          <input
+            class="footer-input"
+            type="email"
+            name="email"
+            id="user_email"
+            placeholder="E-mail"
+          />
+          <button type="submit" class="footer-submit-button">
+            Subscribe
+            <svg class="footer-submit-button-svg" width="24" height="24">
+              <use
+                href="./images/sprite-svg/symbol-defs.svg#icon-send"
+              />
+            </svg>
+          </button>
+        </form>
       </div>
     </footer>
   </body>
