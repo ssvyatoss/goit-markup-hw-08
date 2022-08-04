@@ -1,0 +1,29 @@
+%txt-align {
+  text-align: center;
+}
+
+%button {
+  color: $secondary-color;
+  font-weight: $main-font-weight;
+  font-size: $secondary-font-size;
+  line-height: $fourth-line-height;
+  letter-spacing: $secondary-spacing;
+  width: 200px;
+  height: 50px;
+  background-color: $accent-color;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  @extend %b-radius-style;
+  align-self: center;
+  cursor: pointer;
+}
+
+%flex-center {
+  display: flex;
+  justify-content: center
+}
+
+%b-radius-style {
+  border-radius: 4px;
+  border-style: none;
+}
+

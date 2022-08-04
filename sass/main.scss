@@ -1,0 +1,27 @@
+// utils
+@import "./utils/variables";
+@import "./utils/mixins";
+@import "./utils/placeholders";
+@import "./utils/visually-hidden";
+// 
+// base
+@import "./base/common";
+@import "./base/container-styles";
+@import "./base/noramlize";
+//
+// components
+@import "./components/footer";
+@import "./components/header";
+@import "./components/logo";
+//
+// components > index
+@import "./components/index/activity";
+@import "./components/index/heading-check";
+@import "./components/index/peculiarities";
+@import "./components/index/regular-customers";
+@import "./components/index/team";
+// 
+// components > portfolio
+@import "./components/portfolio/main";
+
+
