@@ -29,7 +29,7 @@
     @include hover-focus() {
       background-color: $accent-color;
       color: $secondary-color;
-      transition: background-color 2500ms;
+      transition: background-color 250ms;
     }
   }
 

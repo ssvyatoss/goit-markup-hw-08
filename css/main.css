@@ -868,8 +868,8 @@ body {
 .buttons-list__button:hover, .buttons-list__button:focus {
   background-color: #2196f3;
   color: #fff;
-  -webkit-transition: background-color 2500ms;
-  transition: background-color 2500ms;
+  -webkit-transition: background-color 250ms;
+  transition: background-color 250ms;
 }
 .buttons-list__container {
   padding-bottom: 56px;
