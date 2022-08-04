@@ -63,7 +63,7 @@
   transition: color 250ms;
 
   @include hover-focus {
-    color: accent-color;
+    color: $accent-color;
   }
 }
 

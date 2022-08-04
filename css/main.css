@@ -142,6 +142,19 @@ select {
     scroll-behavior: auto !important;
   }
 }
+.logo {
+  font-family: Raleway;
+  color: #212121;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+.logo__item {
+  color: #2196f3;
+}
+
 .footer {
   letter-spacing: 0.03em;
   background-color: #2f303a;
@@ -332,7 +345,7 @@ select {
 .studio-mail:hover, .studio-mail:focus,
 .studio-tel:hover,
 .studio-tel:focus {
-  color: accent-color;
+  color: #2196f3;
 }
 
 .studio-mail__icon,
@@ -346,19 +359,6 @@ select {
 
 .header-underline {
   border-bottom: 1px solid #ececec;
-}
-
-.logo {
-  font-family: Raleway;
-  color: #212121;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-decoration: none;
-}
-.logo__item {
-  color: #2196f3;
 }
 
 .activity {
@@ -862,14 +862,12 @@ body {
   line-height: 1.62;
   text-align: center;
   cursor: pointer;
-  -webkit-transition: color 250ms;
-  transition: color 250ms;
+  -webkit-transition: color 250ms, background-color 250ms;
+  transition: color 250ms, background-color 250ms;
 }
 .buttons-list__button:hover, .buttons-list__button:focus {
   background-color: #2196f3;
   color: #fff;
-  -webkit-transition: background-color 250ms;
-  transition: background-color 250ms;
 }
 .buttons-list__container {
   padding-bottom: 56px;
