@@ -13,6 +13,7 @@
   background-size: cover;
   background-position: 50% 50%;
   max-width: 1600px;
+  margin: auto;
 
   &__title {
     color: $secondary-color;
@@ -21,7 +22,6 @@
     line-height: 1.36;
     text-transform: uppercase;
     margin-bottom: 30px;
-    text-align: center;
   }
 }
 

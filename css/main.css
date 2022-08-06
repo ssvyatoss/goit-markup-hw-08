@@ -421,6 +421,7 @@ select {
   background-size: cover;
   background-position: 50% 50%;
   max-width: 1600px;
+  margin: auto;
 }
 .heading__title {
   color: #fff;
@@ -429,7 +430,6 @@ select {
   line-height: 1.36;
   text-transform: uppercase;
   margin-bottom: 30px;
-  text-align: center;
 }
 
 body {
@@ -855,7 +855,6 @@ body {
   list-style-type: none;
 }
 .buttons-list__button {
-  font-family: Raleway;
   letter-spacing: 0.03em;
   font-weight: 500;
   font-size: 16px;
