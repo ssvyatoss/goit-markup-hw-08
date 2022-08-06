@@ -4,6 +4,7 @@
   padding: 60px 0;
   list-style-type: none;
 
+  &__container,
   &__socio {
     @include display();
   }
