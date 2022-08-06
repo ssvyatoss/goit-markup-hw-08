@@ -4,11 +4,11 @@
   padding: 60px 0;
   list-style-type: none;
 
-  &__container {
+  &__socio {
     @include display();
   }
 
-  &__container--align {
+  &__socio--align {
     flex-direction: column;
     justify-content: flex-start;
     margin-left: 70px;

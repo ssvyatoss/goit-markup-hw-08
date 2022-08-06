@@ -31,7 +31,7 @@
     height: 70px;
     background-color: rgba(0, 38, 29, 0.3);
     color: $secondary-color;
-    bottom: 3px;
+    bottom: 0px;
     @include centered-flex();
     position: absolute;
   }

@@ -5,10 +5,10 @@
   &__title {
     @include display(none);
   }
-}
 
-.peculiarities-list {
-  @include display();
+  &__list {
+    @include display();
+  }
 
   &__item,
   &__wrapper {
@@ -36,10 +36,12 @@
     font-weight: $main-font-weight;
     line-height: $secondary-line-height;
     text-transform: uppercase;
+    margin-bottom: 10px;
   }
 
   &__description {
     color: $thirdy-color;
     line-height: $fifth-line-height;
   }
-}
+} 
+
