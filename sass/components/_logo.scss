@@ -1,14 +1,18 @@
 .logo {
-    font-family: Raleway;
-    color: $main-color;
-    font-weight: $main-font-weight;
-    font-size: 26px;
-    line-height: $main-line-height;
-    letter-spacing: $main-spacing;
+    color: #000000;
     text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
     
-    &__item {
-      color: $accent-color;
-    }
-  }
-  
+    &:focus {
+            outline: none;
+        }
+}
+
+
+
+.logo__word {
+    color: #2196f3;
+}

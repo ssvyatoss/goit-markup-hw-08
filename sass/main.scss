@@ -1,27 +1,28 @@
-// utils
-@import "./utils/variables";
-@import "./utils/mixins";
-@import "./utils/placeholders";
-@import "./utils/visually-hidden";
-// 
-// base
-@import "./base/common";
-@import "./base/container-styles";
-@import "./base/noramlize";
-//
-// components
-@import "./components/logo";
-@import "./components/footer";
-@import "./components/header";
-//
-// components > index
-@import "./components/index/activity";
-@import "./components/index/heading-check";
-@import "./components/index/peculiarities";
-@import "./components/index/regular-customers";
-@import "./components/index/team";
-// 
-// components > portfolio
-@import "./components/portfolio/main";
 
 
+
+ @import './utils/variables';
+ @import './utils/visually-hidden';
+
+ @import './utils/breakpoints';
+
+@import './base/common';
+@import './base/container';
+@import './base/section';
+
+@import './components/backdrop';
+@import './components/button';
+@import './components/logo';
+@import './components/section-title';
+@import './components/social-list'; 
+@import './components/modal';
+@import './components/mobile-menu';
+
+@import './layout/clients';
+@import './layout/features';
+@import './layout/footer';
+@import './layout/header';
+@import './layout/hero';
+@import './layout/portfolio';
+@import './layout/team';
+@import './layout/works';
